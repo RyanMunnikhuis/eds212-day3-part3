@@ -1,0 +1,39 @@
+---
+title: "Coding Practice"
+author: "Ryan Munnikhuis"
+date: "8/4/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Vectors 
+```{r}
+vec_a = c(1, 6)
+
+vec_b = c(2, 4)
+```
+## Vector addtion 
+```{r}
+vec_c = vec_a + vec_b
+
+vec_c
+```
+## Vector subtraction
+```{r}
+vec_d = vec_b - vec_a
+```
+## Scaling a vector
+```{r}
+vec_e = 4 * vec_a
+```
+## Dot producting vectors 
+```{r}
+
+vec_f = vec_a %*% vec_b
+
+vec_f 
+
+```
+
